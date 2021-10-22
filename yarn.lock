@@ -10099,10 +10099,10 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-nuxt-clipboard@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/nuxt-clipboard/-/nuxt-clipboard-0.0.2.tgz#fb9df66e371ac3e7cec08edf3025e35680b5ecb4"
-  integrity sha512-PFlNZTP7q7PhALECljz+qC7DGhwLhCrltISQ4yRqvVnhi15I80hYgBYkZHuRwSF6yPEAamqQLaXQeQ7BmrzoBw==
+nuxt-clipboard@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/nuxt-clipboard/-/nuxt-clipboard-0.0.6.tgz#8b47e1794ef48386d6ff62ac39c6e70b2c3d06d1"
+  integrity sha512-KlfBWhQMVh9qcZGE7I0B0lhxYrcgrDwSXBtWCQIJKPOLQYEmZm3uJj8EDdLKXhpXfo8PeylaEo/6eL0u0wkgYQ==
   dependencies:
     vue-clipboard2 "^0.3.1"
 
