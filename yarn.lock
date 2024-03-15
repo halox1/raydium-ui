@@ -958,12 +958,11 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@blocto/sdk@^0.2.11":
-  version "0.2.11"
-  resolved "https://registry.yarnpkg.com/@blocto/sdk/-/sdk-0.2.11.tgz#c95f4934f605bbe9a54d0f90bacdc3b4ea7e3e80"
-  integrity sha512-k+b24kMi8UD7IiffqbcLJPk4CnewwIMhIJEsTBkodUY7xnmZnhBsSd2Lcc3YWmJLr1EiCxhC6iSnBnZ4c2axAQ==
+"@blocto/sdk@^0.2.22":
+  version "0.2.22"
+  resolved "https://registry.yarnpkg.com/@blocto/sdk/-/sdk-0.2.22.tgz#c7fe62809de0640a0a3f7a043c5bbceb8be17e38"
+  integrity sha512-Ro1AiISSlOiri/It932NEFxnDuF83Ide+z0p3KHs5+CdYYLYgCMmyroQnfRtoh3mbXdrTvI+EAuSkr+meWNqrg==
   dependencies:
-    "@solana/web3.js" "^1.22.0"
     bs58 "^4.0.1"
     buffer "^6.0.3"
     eip1193-provider "^1.0.1"
@@ -1995,17 +1994,28 @@
   dependencies:
     eventemitter3 "^4.0.7"
 
+"@solana/wallet-adapter-base@^0.9.23":
+  version "0.9.23"
+  resolved "https://registry.yarnpkg.com/@solana/wallet-adapter-base/-/wallet-adapter-base-0.9.23.tgz#3b17c28afd44e173f44f658bf9700fd637e12a11"
+  integrity sha512-apqMuYwFp1jFi55NxDfvXUX2x1T0Zh07MxhZ/nCCTGys5raSfYUh82zen2BLv8BSDj/JxZ2P/s7jrQZGrX8uAw==
+  dependencies:
+    "@solana/wallet-standard-features" "^1.1.0"
+    "@wallet-standard/base" "^1.0.1"
+    "@wallet-standard/features" "^1.0.3"
+    eventemitter3 "^4.0.7"
+
 "@solana/wallet-adapter-bitpie@^0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@solana/wallet-adapter-bitpie/-/wallet-adapter-bitpie-0.2.0.tgz#c3cbbaacb63571cdc263b3e5960c5f41d0cd5c07"
   integrity sha512-yfZmzSNFoJuTAUrpd63cs8wPvZCiPJLdg0AmlBQ7Jar8pvEeavqA3Tsx3935ZA+PG5mQvJQyCGaKWJbv2RFkHg==
 
-"@solana/wallet-adapter-blocto@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@solana/wallet-adapter-blocto/-/wallet-adapter-blocto-0.2.0.tgz#13609d418fe19a2e37a92b76d241d02c362a5763"
-  integrity sha512-kBaOkvXz+UhNDqsvA5E7IMXG+KlMcW5MN89sItoKdBn1kalOXEzEhx25ZLlxyCakAAoWn963ECTPg3r4Lh3iDg==
+"@solana/wallet-adapter-blocto@^0.5.22":
+  version "0.5.22"
+  resolved "https://registry.yarnpkg.com/@solana/wallet-adapter-blocto/-/wallet-adapter-blocto-0.5.22.tgz#caf5794d52f1751c8da0fc9c6208b6261828da48"
+  integrity sha512-e98VaErdaVJE14WovTaw6Fpu1F1BP7DbzOdwIR/cAKXkss+Lh4dxZPwT8UVOMwBb2/CZYbuJtEvJuzIzlch0gQ==
   dependencies:
-    "@blocto/sdk" "^0.2.11"
+    "@blocto/sdk" "^0.2.22"
+    "@solana/wallet-adapter-base" "^0.9.23"
 
 "@solana/wallet-adapter-coin98@^0.2.0":
   version "0.2.0"
@@ -2073,6 +2083,14 @@
     "@toruslabs/openlogin-ed25519" "^0.10.2"
     "@types/keccak" "^3.0.1"
 
+"@solana/wallet-standard-features@^1.1.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@solana/wallet-standard-features/-/wallet-standard-features-1.2.0.tgz#be8b3824abf5ebcfeaa7298445bf53f76a27c935"
+  integrity sha512-tUd9srDLkRpe1BYg7we+c4UhRQkq+XQWswsr/L1xfGmoRDF47BPSXf4zE7ZU2GRBGvxtGt7lwJVAufQyQYhxTQ==
+  dependencies:
+    "@wallet-standard/base" "^1.0.1"
+    "@wallet-standard/features" "^1.0.3"
+
 "@solana/web3.js@^0.90.0":
   version "0.90.5"
   resolved "https://registry.yarnpkg.com/@solana/web3.js/-/web3.js-0.90.5.tgz#5be7d78a19f0b5e01bf82c52e3cbf0bb72a38cfd"
@@ -2096,7 +2114,7 @@
     tweetnacl "^1.0.0"
     ws "^7.0.0"
 
-"@solana/web3.js@^1.21.0", "@solana/web3.js@^1.22.0":
+"@solana/web3.js@^1.21.0":
   version "1.26.0"
   resolved "https://registry.yarnpkg.com/@solana/web3.js/-/web3.js-1.26.0.tgz#bdd71616ce0ff40258dfe3a8d3a401ed5658fbae"
   integrity sha512-XXrE8srfA3ilMvpOs6WdGOIuY8epc0sF9Tl4M6BHNnfS5pbSQ+jJJdEhwi6AzURgXWWu//242Tq347iLSQhRqQ==
@@ -2899,6 +2917,18 @@
     dom-event-types "^1.0.0"
     lodash "^4.17.15"
     pretty "^2.0.0"
+
+"@wallet-standard/base@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@wallet-standard/base/-/base-1.0.1.tgz#860dd94d47c9e3c5c43b79d91c6afdbd7a36264e"
+  integrity sha512-1To3ekMfzhYxe0Yhkpri+Fedq0SYcfrOfJi3vbLjMwF2qiKPjTGLwZkf2C9ftdQmxES+hmxhBzTwF4KgcOwf8w==
+
+"@wallet-standard/features@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@wallet-standard/features/-/features-1.0.3.tgz#c992876c5e4f7a0672f8869c4146c87e0dfe48c8"
+  integrity sha512-m8475I6W5LTatTZuUz5JJNK42wFRgkJTB0I9tkruMwfqBF2UN2eomkYNVf9RbrsROelCRzSFmugqjKZBFaubsA==
+  dependencies:
+    "@wallet-standard/base" "^1.0.1"
 
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
