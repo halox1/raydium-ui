@@ -28,7 +28,7 @@
     "@nuxtjs/gtm": "^2.4.0",
     "@nuxtjs/sentry": "^5.0.2",
     "@project-serum/borsh": "^0.2.2",
-    "@project-serum/serum": "0.13.47",
+    "@project-serum/serum": "0.13.48",
     "@solana/spl-token": "^0.1.8",
     "@solana/wallet-adapter-base": "^0.6.0",
     "@solana/wallet-adapter-bitpie": "^0.2.0",
@@ -50,7 +50,7 @@
     "core-js": "^3.8.3",
     "enquire.js": "^2.1.6",
     "lodash-es": "^4.17.21",
-    "nuxt": "^2.15.2",
+    "nuxt": "^3.12.4",
     "nuxt-clipboard": "^0.0.2",
     "nuxt-property-decorator": "^2.9.1",
     "nuxt-typed-vuex": "^0.1.22"
